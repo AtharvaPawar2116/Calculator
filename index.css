@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(255, 80, 80);
+}
+.outercontainer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: ;
+
+    
+
+}
+#container
+{
+    background-color: rgb(209, 255, 3);
+    display: flex;
+    flex-direction: column;
+    
+    width:210px;
+    height: 400px;
+  
+}
+.upper
+{
+    background-color: rgb(10, 211, 211);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    height: 10%;
+    margin:2px 2px 2px 2px;
+}
+#display
+{
+    width: 80%;
+    height: 50%;
+}
+.lower
+{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction:row;
+    margin:2px 2px 2px 2px;
+    height: 100%;
+    row-gap:0px;
+}
+.button
+{
+    color: azure;
+    background-color: green;
+    margin:2px;
+    width:50px;
+    height: 50px;
+}
